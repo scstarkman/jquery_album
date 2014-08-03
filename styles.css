@@ -1,0 +1,59 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+
+header{
+  background-color:teal;
+  text-align:center;
+  margin-top:-25px
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color:white;
+  font-size:48px;
+}
+ul li{
+  display:inline-block;
+  padding:35px;
+}
+
+li a{
+  text-decoration:none;
+  color:white;
+  font-family:arial;
+  font-size:25px;
+
+}
+h3{
+  font-size:32px;
+  color:orange;
+  text-align:center;
+}
+
+.pageOne, .pageTwo, .pageThree {
+  display:none;
+}
+.currentPage {
+  display: block;
+}
+.container{
+  padding-bottom:100px;
+}
+.album {
+    margin-top:50px;
+    text-align:center;
+
+
+}
+img{
+  border:3px solid gray;
+  cursor:pointer;
+  width:200px;
+  height:200px;
+  margin-right:20px;
+}
+.zoom {
+  width:400px;
+  height:400px;
+}
